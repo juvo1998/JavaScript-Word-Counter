@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+    <script src = "WordCounter.js"></script>
+
+    <h1>Select a .txt file and click the button to count the number of words.</h1>
+
+    <form onsubmit = "return false">
+        Select a file: <input type="file" id = "inputFile">
+    </form>
+
+    <button onclick = "countWords()">
+        Count words!
+    </button>
+
+    <p id = "fileDisplay"></p>
+    <p id = "textDisplay"></p>
+    <p id = "countDisplay"></p>
+
+</html>
+
